@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* --- CSS start ---*/
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  width: 100%;
+  position: relative;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; }
+
+body {
+  background: #eee;
+  height: 100%; }
+
+#wrapper {
+  width: 1000px;
+  height: 1000px;
+  margin: 50px auto;
+  position: relative;
+  background: #fff; }
+  #wrapper p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 300px; }
+  #wrapper .boxes {
+    width: 300px;
+    height: 300px; }
+  #wrapper .html_box {
+    background: #ffb900;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  #wrapper .css_box {
+    background: #2998ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; }
+  #wrapper .js_box {
+    background: #fbff00;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
